@@ -1,25 +1,12 @@
-
 # msdR
 
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of msdR is to ...
+Outils pédagogiques pour l'analyse de stabilité des systèmes
+masse-ressort-amortisseur à 1 degré de liberté.
 
 ## Installation
 
-You can install the development version of msdR like so:
-
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(msdR)
-## basic example code
-```
+```r
+# install.packages("remotes")
+remotes::install_github("esthermoukouri7-ship-it/msdR")
+# msdR
 
