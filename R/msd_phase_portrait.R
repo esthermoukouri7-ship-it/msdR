@@ -10,7 +10,7 @@
 msd_phase_portrait <- function(m, k, c,
                                xlim = c(-2, 2), ylim = c(-2, 2),
                                n_grid = 15, t_max = 15) {
-
+  A <- msd_system(m, k, c)
   grid <- expand.grid(
     x = seq(xlim[1], xlim[2], length.out = n_grid),
     v = seq(ylim[1], ylim[2], length.out = n_grid)

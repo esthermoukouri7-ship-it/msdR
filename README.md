@@ -8,5 +8,5 @@ masse-ressort-amortisseur à 1 degré de liberté.
 ```r
 # install.packages("remotes")
 remotes::install_github("esthermoukouri7-ship-it/msdR")
-# msdR
+
 

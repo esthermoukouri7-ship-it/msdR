@@ -6,7 +6,7 @@ test_that("msd_system returns the correct matrix", {
 })
 
 test_that("msd_eigen gives the analytic eigenvalues", {
-  info <- msd_eigen(m = 1, k = 1, c = 1)
+  info <- msd_eigen(length(m) = 1, k = 1, c = 1)
   expect_equal(info$omega_n, 1)
   expect_equal(info$zeta, 0.5)
   expect_equal(info$omega_d, sqrt(3) / 2)

@@ -16,7 +16,7 @@
 #' @examples
 #' msd_eigen(m = 1, k = 1, c = 0.5)$regime
 
-msd_eigen <- function(m,k,c) { stopifnot(m==1, m>0, is.numeric(m))
+msd_eigen <- function(m,k,c) { stopifnot(length(m)==1, m>0, is.numeric(m))
   wn <- sqrt(k/m)
   zeta <- c/(2*sqrt(k*m))
   ev <- eigen(msd_system(m,k,c))$values
